@@ -1,4 +1,5 @@
 import Profile from './profile/profile';
+import Statistics from './statistics/statistics';
 
 export const App = () => {
   return (
@@ -13,6 +14,7 @@ export const App = () => {
       }}
     >
       <Profile />
+      <Statistics />
     </div>
   );
 };
