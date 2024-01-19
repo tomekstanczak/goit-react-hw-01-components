@@ -1,8 +1,8 @@
 .statistics {
-  border: 2px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 40px;
 }
 .title {
   text-transform: uppercase;
@@ -15,7 +15,6 @@
 }
 .item {
   padding: 20px;
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;

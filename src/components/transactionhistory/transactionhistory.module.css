@@ -1,0 +1,14 @@
+.transactionHistory {
+  font-size: 20px;
+  margin-left: 40px;
+  border-spacing: 0;
+  display: table-column-group;
+}
+.transactionHistory th {
+  background-color: aqua;
+}
+.transactionHistory th,
+.transactionHistory td {
+  border: 1px solid black;
+  text-align: center;
+}

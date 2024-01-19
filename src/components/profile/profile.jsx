@@ -1,4 +1,3 @@
-import user from './user.json';
 import css from './profile.module.css';
 import PropTypes from 'prop-types';
 
@@ -30,21 +29,6 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
   );
 };
 
-function User() {
-  return (
-    <div>
-      <Profile
-        key={user.username}
-        username={user.username}
-        tag={user.tag}
-        location={user.location}
-        avatar={user.avatar}
-        stats={user.stats}
-      />
-    </div>
-  );
-}
-
 Profile.propTypes = {
   username: PropTypes.string,
   tag: PropTypes.string,
@@ -57,4 +41,4 @@ Profile.propTypes = {
   }),
 };
 
-export default User;
+export default Profile;

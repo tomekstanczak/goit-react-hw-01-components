@@ -1,5 +1,5 @@
-import data from './data.json';
 import css from './statistic.module.css';
+import PropTypes from 'prop-types';
 
 function Statistics({ title, stats }) {
   return (
@@ -26,12 +26,8 @@ function backgroundColor() {
   return color;
 }
 
-function Table() {
-  return (
-    <div>
-      <Statistics title="Upload stats" stats={data} />
-    </div>
-  );
-}
-
-export default Table;
+Statistics.propTypes = {
+  title: PropTypes.string,
+  stats: PropTypes.array,
+};
+export default Statistics;
